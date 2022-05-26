@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EndGame.js">
+    <Files>
+      <File FileName="Assets\Scripts\EndGame.js" Line="242" Column="3" />
+      <File FileName="Assets\Scripts\EnemySpawner.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShootAtMyelin2.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CameraLockBossFight.js" Line="22" Column="2" />
+      <File FileName="Assets\Scripts\PlayerHealth.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\StartTextMotorNew.js" Line="10" Column="35" />
+      <File FileName="Assets\Scripts\AchievementWatcher.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

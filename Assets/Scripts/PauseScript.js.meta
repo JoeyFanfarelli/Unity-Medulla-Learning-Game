@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 103b72d9fcf8dc847ae215a993e3ed2e
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Background: {fileID: 2800000, guid: b905e379669203c49af8c378b5bdaa9e, type: 3}
+  - Header: {fileID: 2800000, guid: a8e25d823ae9cd549bfbdfd40ea8dacf, type: 3}
+  - LockedImage: {fileID: 2800000, guid: 5efbb128d5ea99b4797ee9e186c4231f, type: 3}
+  - PacifistImage: {fileID: 2800000, guid: 74b3e76ad77f3f04f9b87856c9295444, type: 3}
+  - InvincibleImage: {fileID: 2800000, guid: 8a51bba7988177642b5bd44cbad62d3f, type: 3}
+  - DedicatedImage: {fileID: 2800000, guid: ad6c662faeeba0b46b9460451fb6ed7e, type: 3}
+  - ViolentImage: {fileID: 2800000, guid: 4a3f4ac13e400b44eba7c03ef1a24f29, type: 3}
+  - TimeTravelerImage: {fileID: 2800000, guid: 346aae35a2c6ac7459bd229617b4be6a, type: 3}
+  - MoonWalkerImage: {fileID: 2800000, guid: c37b0b77a0896c245a11a422c76642be, type: 3}
+  - BeatFirstImage: {fileID: 2800000, guid: 339d7c427810f554cac72f51151eee2d, type: 3}
+  - BeatSecondImage: {fileID: 2800000, guid: d0166273ea5d0d448a4edaaffe55090c, type: 3}
+  - BeatThirdImage: {fileID: 2800000, guid: 525e8127cb159bc40855e67fffadb709, type: 3}
+  - BeatFourthImage: {fileID: 2800000, guid: 30adc3b3215ad5d4daf0c7874f5ed0b0, type: 3}
+  - BeatFifthImage: {fileID: 2800000, guid: 11178032db52712439d1d94276c3b970, type: 3}
+  - BeatSixthImage: {fileID: 2800000, guid: f31abc4d6f7be9b408c67b468b04f513, type: 3}
+  - BeatSeventhImage: {fileID: 2800000, guid: 73637fec8d356ef4ba25c2505160be15, type: 3}
+  - BeatEighthImage: {fileID: 2800000, guid: eee3cbc57ebc7144ea533d7ba7137ecc, type: 3}
+  - BeatGameImage: {fileID: 2800000, guid: 5b107bbfc0e040947bb589ae53f6950a, type: 3}
+  - KilledOneImage: {fileID: 2800000, guid: 9ed01d8107483fc4fbeaefac30afd40f, type: 3}
+  - KilledTenImage: {fileID: 2800000, guid: 60b0b00bf0cb0214389e18cb7ee438e8, type: 3}
+  - KilledFiftyImage: {fileID: 2800000, guid: 90efcd30fc71a234cb3a0bf33def44f6, type: 3}
+  - CureFirstImage: {fileID: 2800000, guid: 38c9aa89ea61e5244bf8f66b31a72ae8, type: 3}
+  - CureThreeImage: {fileID: 2800000, guid: 1aa5a78af6c4ce644a65ef53778f78db, type: 3}
+  - CureTenImage: {fileID: 2800000, guid: 954ad8efaadc4e84ab797e7bfc209e04, type: 3}
+  - CureAllImage: {fileID: 2800000, guid: 4736ee77caf52e14c8efea9f8d37348d, type: 3}
+  - CureOptionalImage: {fileID: 2800000, guid: 2fffff78fb1a6284d990038a628b2627, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

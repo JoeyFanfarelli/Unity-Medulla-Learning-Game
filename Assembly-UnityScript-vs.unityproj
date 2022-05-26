@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{77B7DC9E-9C9D-6AC2-A9B4-2C8DB871477A}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AchieveNotifierTextWrap.js" />
+     <Compile Include="Assets\Scripts\AchievementWatcher.js" />
+     <Compile Include="Assets\Scripts\AnimateTexture.js" />
+     <Compile Include="Assets\Scripts\AnimatedTexture.js" />
+     <Compile Include="Assets\Scripts\BlurVision.js" />
+     <Compile Include="Assets\Scripts\BrocaClick.js" />
+     <Compile Include="Assets\Scripts\BrocaClickBoss.js" />
+     <Compile Include="Assets\Scripts\BrocaCureTrigger.js" />
+     <Compile Include="Assets\Scripts\CameraFollowSmoothDamp.js" />
+     <Compile Include="Assets\Scripts\CameraFollowSmoothDampBoss.js" />
+     <Compile Include="Assets\Scripts\CameraLockBossFight.js" />
+     <Compile Include="Assets\Scripts\CerebellumClick.js" />
+     <Compile Include="Assets\Scripts\CerebellumClickBoss.js" />
+     <Compile Include="Assets\Scripts\CerebellumCureTrigger.js" />
+     <Compile Include="Assets\Scripts\CharController.js" />
+     <Compile Include="Assets\Scripts\CharController2D.js" />
+     <Compile Include="Assets\Scripts\CheckPoint.js" />
+     <Compile Include="Assets\Scripts\ChrCtrlModifer.js" />
+     <Compile Include="Assets\Scripts\Collectable.js" />
+     <Compile Include="Assets\Scripts\ColorTest.js" />
+     <Compile Include="Assets\Scripts\CureOptFalse.js" />
+     <Compile Include="Assets\Scripts\CureOptTrue.js" />
+     <Compile Include="Assets\Scripts\DropHurtyThings.js" />
+     <Compile Include="Assets\Scripts\DropHurtyThingsTimed.js" />
+     <Compile Include="Assets\Scripts\Elevator.js" />
+     <Compile Include="Assets\Scripts\EndGame.js" />
+     <Compile Include="Assets\Scripts\EndTextBroca.js" />
+     <Compile Include="Assets\Scripts\EndTextCerebellum.js" />
+     <Compile Include="Assets\Scripts\EndTextMedulla.js" />
+     <Compile Include="Assets\Scripts\EndTextMotor.js" />
+     <Compile Include="Assets\Scripts\EndTextOccipital.js" />
+     <Compile Include="Assets\Scripts\EndTextParietal.js" />
+     <Compile Include="Assets\Scripts\EndTextPrefrontalCortex.js" />
+     <Compile Include="Assets\Scripts\EndTextTemporal.js" />
+     <Compile Include="Assets\Scripts\EndofLevelBroca.js" />
+     <Compile Include="Assets\Scripts\EndofLevelCerebellum.js" />
+     <Compile Include="Assets\Scripts\EndofLevelMedulla.js" />
+     <Compile Include="Assets\Scripts\EndofLevelMotor.js" />
+     <Compile Include="Assets\Scripts\EndofLevelOccipital.js" />
+     <Compile Include="Assets\Scripts\EndofLevelParietal.js" />
+     <Compile Include="Assets\Scripts\EndofLevelPrefrontal.js" />
+     <Compile Include="Assets\Scripts\EndofLevelTemporal.js" />
+     <Compile Include="Assets\Scripts\EnemyDamageController.js" />
+     <Compile Include="Assets\Scripts\EnemyProjectileDamage.js" />
+     <Compile Include="Assets\Scripts\EnemyShooting.js" />
+     <Compile Include="Assets\Scripts\EnemySpawner.js" />
+     <Compile Include="Assets\Scripts\FalloutDeath.js" />
+     <Compile Include="Assets\Scripts\FlipCamera180.js" />
+     <Compile Include="Assets\Scripts\FollowOnX.js" />
+     <Compile Include="Assets\Scripts\GameController.js" />
+     <Compile Include="Assets\Scripts\GhostEnemyFollowPlayer.js" />
+     <Compile Include="Assets\Scripts\HealthBar.js" />
+     <Compile Include="Assets\Scripts\KrisMonsterMover.js" />
+     <Compile Include="Assets\Scripts\LeftSpawnMonsterMover.js" />
+     <Compile Include="Assets\Scripts\MedullaClick.js" />
+     <Compile Include="Assets\Scripts\MedullaClickBoss.js" />
+     <Compile Include="Assets\Scripts\MedullaCureTrigger.js" />
+     <Compile Include="Assets\Scripts\MidMotorText.js" />
+     <Compile Include="Assets\Scripts\MonsterAnimate.js" />
+     <Compile Include="Assets\Scripts\MonsterAnimateTexture.js" />
+     <Compile Include="Assets\Scripts\MotorCortexClick.js" />
+     <Compile Include="Assets\Scripts\MotorCortexClickBoss.js" />
+     <Compile Include="Assets\Scripts\MotorCureTrigger.js" />
+     <Compile Include="Assets\Scripts\NPCMover.js" />
+     <Compile Include="Assets\Scripts\OccipitalClick.js" />
+     <Compile Include="Assets\Scripts\OccipitalClickBoss.js" />
+     <Compile Include="Assets\Scripts\OccipitalCureTrigger.js" />
+     <Compile Include="Assets\Scripts\Orbit.js" />
+     <Compile Include="Assets\Scripts\PainScript.js" />
+     <Compile Include="Assets\Scripts\ParietalClick.js" />
+     <Compile Include="Assets\Scripts\ParietalClickBoss.js" />
+     <Compile Include="Assets\Scripts\ParietalCureTrigger.js" />
+     <Compile Include="Assets\Scripts\PauseScript.js" />
+     <Compile Include="Assets\Scripts\PeterMonsterMover.js" />
+     <Compile Include="Assets\Scripts\PlatformDisappear.js" />
+     <Compile Include="Assets\Scripts\PlatformMover.js" />
+     <Compile Include="Assets\Scripts\PlatformRotator.js" />
+     <Compile Include="Assets\Scripts\PlayerAnimate.js" />
+     <Compile Include="Assets\Scripts\PlayerAudio.js" />
+     <Compile Include="Assets\Scripts\PlayerHealth.js" />
+     <Compile Include="Assets\Scripts\PlayerShooting2D.js" />
+     <Compile Include="Assets\Scripts\PlayerShootingJS.js" />
+     <Compile Include="Assets\Scripts\PlayerTarget.js" />
+     <Compile Include="Assets\Scripts\PlayerTargetShooting.js" />
+     <Compile Include="Assets\Scripts\PrefrontalCortexClick.js" />
+     <Compile Include="Assets\Scripts\PrefrontalCortexClickBoss.js" />
+     <Compile Include="Assets\Scripts\PrefrontalCortexCureTrigger.js" />
+     <Compile Include="Assets\Scripts\RightSpawnMonster.js" />
+     <Compile Include="Assets\Scripts\ShootAtMyelin.js" />
+     <Compile Include="Assets\Scripts\ShootAtMyelin1.js" />
+     <Compile Include="Assets\Scripts\ShootAtMyelin2.js" />
+     <Compile Include="Assets\Scripts\ShootAtMyelin3.js" />
+     <Compile Include="Assets\Scripts\ShootAtMyelin4.js" />
+     <Compile Include="Assets\Scripts\ShootAtMyelinHitBox.js" />
+     <Compile Include="Assets\Scripts\ShootFriendly.js" />
+     <Compile Include="Assets\Scripts\SmoothPlatformMover.js" />
+     <Compile Include="Assets\Scripts\Spawner.js" />
+     <Compile Include="Assets\Scripts\SpikeDamage.js" />
+     <Compile Include="Assets\Scripts\SpikeMover.js" />
+     <Compile Include="Assets\Scripts\Spin.js" />
+     <Compile Include="Assets\Scripts\StartTextBroca.js" />
+     <Compile Include="Assets\Scripts\StartTextCerebellum.js" />
+     <Compile Include="Assets\Scripts\StartTextMotor.js" />
+     <Compile Include="Assets\Scripts\StartTextMotorNew.js" />
+     <Compile Include="Assets\Scripts\StartTextOccipital.js" />
+     <Compile Include="Assets\Scripts\StartTextPrefrontalCortex.js" />
+     <Compile Include="Assets\Scripts\StartTextTemporal.js" />
+     <Compile Include="Assets\Scripts\Teleporter 1.js" />
+     <Compile Include="Assets\Scripts\TemporalClick.js" />
+     <Compile Include="Assets\Scripts\TemporalClickBoss.js" />
+     <Compile Include="Assets\Scripts\TemporalCureTrigger.js" />
+     <Compile Include="Assets\Scripts\TextWrap.js" />
+     <Compile Include="Assets\Scripts\ThorDamageController.js" />
+     <Compile Include="Assets\Scripts\TransformBack.js" />
+     <Compile Include="Assets\Scripts\TransformTrigger.js" />
+     <Compile Include="Assets\Scripts\WernickeClick.js" />
+     <Compile Include="Assets\Scripts\WernickeClickBoss.js" />
+     <Compile Include="Assets\Scripts\WriteData.js" />
+     <Compile Include="Assets\Scripts\startTextBossFight.js" />
+     <Compile Include="Assets\Scripts\startTextMedulla.js" />
+     <Compile Include="Assets\Scripts\startTextParietal.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\Joystick.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ObliqueNear.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\PlayerRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RollABall.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RotationConstraint.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SidescrollControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
+     <Compile Include="Assets\pixel bomb\prefabs\BrainwaveDieOnCollision.js" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/jo787529/Dropbox/Medulla/Side Scroller_2014_05_28/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
